@@ -15,6 +15,9 @@ public class FortuneCookie implements ActionListener{
 		frame.pack();
 		button.addActionListener((ActionListener) this);
 		 int rand = new Random().nextInt(5);
+		 if(rand==0) {
+			 JOptionPane.showMessageDialog(null, "You will find the love of your life.");
+		 }
 		 if(rand==1) {
 			 JOptionPane.showMessageDialog(null, "You will live a long time.");
 		 }
