@@ -35,7 +35,6 @@ public class FortuneCookie implements ActionListener{
 		 }
         System.out.println("Button clicked");
    }
-
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		JOptionPane.showMessageDialog(null, "Woohoo");
